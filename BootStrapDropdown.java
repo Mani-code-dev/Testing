@@ -31,9 +31,6 @@ public class BootStrap {
        List<WebElement> list = driver.findElementsByXPath("//ul[@class='dropdown-menu']//li/a");
  
  
- 
-       // We are using enhanced for loop to get the elements
- 
        for (WebElement ele : list)
  
        {
