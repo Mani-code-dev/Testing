@@ -6,8 +6,7 @@ public class Utility
 {
 
 public static WebElement isElementPresnt(WebDriver driver,String xpath,int time)
-{
-
+  {
 
 WebElement ele = null;
 
